@@ -2,7 +2,7 @@ import React from 'react';
 
 import Image from '../assets/avatar.svg'
 
-import {FaGithub,FaYoutube,FaDribbble,FaTwitter,FaTelegram} from 'react-icons/fa'
+import {FaGithub,FaYoutube,FaDribbble,FaTwitter,FaTelegram,FaLinkedin} from 'react-icons/fa'
 
 import { TypeAnimation } from 'react-type-animation';
 
@@ -71,18 +71,16 @@ const Banner = () => {
             viewport={{once:false,amount:0.7}} 
               className='flex md:text-[25px] gap-x-6 max-w-mx mx-auto  text-[20px] 
               lg:max-0'>
-                <a href='#'>
-                  <FaYoutube/>
+                <a href='https://www.linkedin.com/in/ayush-singh-02b978248'>
+                  <FaLinkedin/>
                 </a>
-                <a href='#'>
+                <a href='https://github.com/ayushsingh82'>
                   <FaGithub/>
                 </a>
-                <a href='#'>
+                <a href='https://twitter.com/eth_ayushS'>
                   <FaTwitter/>
                 </a>
-                <a href='#'>
-                  <FaTelegram/>
-                </a>
+                
               </motion.div>
           </div>
           {}
