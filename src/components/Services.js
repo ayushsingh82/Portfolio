@@ -9,19 +9,19 @@ const services=[
   {
     name:'Website Development',
     description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor   velit esse cillum dolore eu fugiat nulla pariatur. t mollit anim id est laborum.',
+     'Experienced in React, Next.js, TypeScript, and Node.js. Passionate about crafting websites. Eager to collaborate and bring your ideas to life.',
     Link:'Learn more',
   },
   {
     name:'Technical Content Writing',
     description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor   velit esse cillum dolore eu fugiat nulla pariatur. deserunt mollit anim id est laborum.',
+   ' Dedicated to crafting technical content on Web2, Web3, decentralized dApps, and exploring innovative concepts in the evolving landscape of Web3.',
     Link:'Learn more',
   },
   {
     name:'Decentralised Apps',
     description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor   velit esse cillum dolore eu fugiat nulla pariatur. cia deserunt mollit anim id est laborum.',
+   ' Developing decentralized dApps using Solidity, Hardhat, and cutting-edge Web3 tech. Ready to bring your vision to life.Build with me DMs are open',
     Link:'Learn more',
   } ,
 ]
@@ -41,7 +41,7 @@ const Services = () => {
         mix-blend-lighten mb-12 lg:mb-0'>
           <h2 className='h2 text-accent mb-6'>What I Do</h2>
           <h3 className='h3  max-w-[455px] mb-16'>
-          I'm a Freelance Front-end Development with over 1 year of experience
+          I'm a Full-Stack Web3 Developer with over 1 year of experience
           </h3>
           <button className='btn btn-sm'>See my work</button>
         </motion.div>

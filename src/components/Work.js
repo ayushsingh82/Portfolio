@@ -26,8 +26,7 @@ const Work = () => {
             Work
           </h2>
           <p className='max-w-sm mb-16'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Explore my latest projects spanning the realms of Web2 and Web3. Dive into the showcase below, featuring compelling visuals and innovative additions.
           </p>
           <button className='btn btn-sm'>View all projects</button>
          </div>

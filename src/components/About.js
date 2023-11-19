@@ -32,7 +32,8 @@ const About = () => {
     className='flex-1'>
       <h2 className='h2 text-accent'>About me</h2>
       <h3 className='h3 mb-4'>I'm a Front-end Developer with over 1 year of experience.</h3>
-      <p className='mb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <p className='mb-6'>
+Experienced Front-end Developer with over 1 year of expertise, crafting seamless user experiences and dynamic interfaces. </p>
       {}
       <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
         <div>
