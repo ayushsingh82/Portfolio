@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // components
 import Banner from './components/Banner';
 import Header from './components/Header';

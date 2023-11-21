@@ -1,6 +1,8 @@
 import React from 'react';
 import {motion} from 'framer-motion'
 
+
+import {FaGithub,FaYoutube,FaDribbble,FaTwitter,FaTelegram,FaLinkedin} from 'react-icons/fa'
 import { fadeIn } from '../variants';
 
 
@@ -15,15 +17,34 @@ const Contact = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{once:false,amount:0.3}}
-        className='flex-1 flex justify-start items-center'>
+        className='flex-1 flex justify-start items-center mb-[40px]'>
         <div>
           <h4 className='text-xl uppercase text-accent font-medium mb-2
           tracking-wide'>Get in Touch</h4>
           <h2 className='text-[45px] lg:text-[90px] leading-none mb-12'>          
           Let's work <br/>Together:
           </h2>
+          <motion.div 
+                 variants={fadeIn('up',0.7)} 
+            initial="hidden"
+             whileInView={'show'}
+            viewport={{once:false,amount:0.7}} 
+              className='flex md:text-[25px] gap-x-6 max-w-mx mx-auto  text-[20px] 
+              lg:max-0'>
+                <a href='https://www.linkedin.com/in/ayush-singh-02b978248'>
+                  <FaLinkedin/>
+                </a>
+                <a href='https://github.com/ayushsingh82'>
+                  <FaGithub/>
+                </a>
+                <a href='https://twitter.com/eth_ayushS'>
+                  <FaTwitter/>
+                </a>
+                
+              </motion.div>
         </div>
       </motion.div>
+
       {}
       <motion.form
          variants={fadeIn('left',0.2)}
