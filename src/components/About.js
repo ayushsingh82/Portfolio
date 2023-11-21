@@ -32,7 +32,7 @@ const About = () => {
     className='flex-1'>
       <h2 className='h2 text-accent'>About me</h2>
       <h3 className='h3 mb-4'>I'm a Front-end Developer with over 1 year of experience.</h3>
-      <p className='mb-6'>
+      <p className='mb-6 font-style: non-italic font-medium text-xl'>
 Experienced Front-end Developer with over 1 year of expertise, crafting seamless user experiences and dynamic interfaces. </p>
       {}
       <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
@@ -42,7 +42,7 @@ Experienced Front-end Developer with over 1 year of expertise, crafting seamless
              inView?
              <CountUp start={0} end={2} duration={3}/>:null}
           </div>
-          <div className='font-primary text-sm tracking-[2px]'>
+          <div className='font-primary text-sm tracking-[2px] non-italic font-medium '>
             Years of <br/>
             Experience
           </div>
@@ -53,7 +53,7 @@ Experienced Front-end Developer with over 1 year of expertise, crafting seamless
              inView?
              <CountUp start={0} end={100} duration={4}/>:null}+
           </div>
-          <div className='font-primary text-sm tracking-[2px]'>
+          <div className='font-primary text-sm tracking-[2px] non-italic font-medium '>
           Projects<br/>
            Completed
           </div>
@@ -64,7 +64,7 @@ Experienced Front-end Developer with over 1 year of expertise, crafting seamless
              inView?
              <CountUp start={0} end={10} duration={5}/>:null}k+
           </div>
-          <div className='font-primary text-sm tracking-[2px]'>
+          <div className='font-primary text-sm tracking-[2px] font-style: non-italic font-medium '>
            Satisfied <br/>
            Clients
           </div>

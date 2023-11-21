@@ -25,7 +25,7 @@ const Work = () => {
           My Latest <br/>
             Work
           </h2>
-          <p className='max-w-sm mb-16'>
+          <p className='max-w-sm mb-16 non-italic font-medium '>
           Explore my latest projects spanning the realms of Web2 and Web3. Dive into the showcase below, featuring compelling visuals and innovative additions.
           </p>
           <button className='btn btn-sm'>View all projects</button>

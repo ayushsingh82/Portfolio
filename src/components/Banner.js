@@ -52,7 +52,9 @@ const Banner = () => {
             initial="hidden"
              whileInView={'show'}
             viewport={{once:false,amount:0.7}} 
-              className='mb-8 max-w-lg mx-auto lg:mx-0 mt-4'>Dedicated to surpassing talents through hard work and continuous growth in my portfolio endeavors. 
+              className='mb-8 max-w-lg mx-auto lg:mx-0 mt-4
+              font-style: non-italic font-medium text-xl'>
+              Dedicated to surpassing talents through hard work and continuous growth in my portfolio endeavors. 
               </motion.p>
               <motion.div
                  variants={fadeIn('up',0.4)} 
